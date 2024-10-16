@@ -14,3 +14,8 @@ test("should return the number when a single number is passed", () => {
 test("should return the sum of two numbers", () => {
   expect(add("1,2")).toBe(3);
 });
+
+// unknown amount test case
+test("should return the sum of multiple numbers", () => {
+  expect(add("1,2,3,4")).toBe(10);
+});
